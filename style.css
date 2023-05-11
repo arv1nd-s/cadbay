@@ -53,7 +53,7 @@ body{
 }
 
 #sin-sup{
-    width: 171px;
+    width: 200px;
     height: 35px;
     display: flex;
     justify-items: center;
@@ -61,7 +61,7 @@ body{
     align-content: center;
     align-items: center;
     transform: translate(0, -20%);
-    margin-left: 73%;
+    margin-left: 50%;
     
     background: #FFD812;
     border-radius: 18px;
@@ -107,4 +107,55 @@ body{
 
 .gold-color{
     color: #FFD812;
+}
+
+#search-d{
+    position: absolute;
+    width: 526px;
+    height: 33px;
+    left: 50%;
+    transform: translate(-50%);
+    top: 165%;
+
+    background: rgba(255, 216, 18, 0.25);
+    border-radius: 18px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+#search-btn{
+    /* Rectangle 4 */
+    position: absolute;
+    width: 116px;
+    height: 35px;
+    left: 80%;
+    transform: translate(-50%);
+    top: 165%;
+
+    background: #FFD812;
+    border-radius: 18px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+#search-btn span{
+    /* Search */
+    position: absolute;
+    width: 61px;
+    height: 22px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+
+    color: #000000;
 }
